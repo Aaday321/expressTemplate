@@ -6,8 +6,8 @@ import cors from "cors";
 const app = new express();
 const PORT = 4015;
 const ATLAL_URL = `mongodb+srv://Ade-user-2:admin123@cluster0.oe5ybr1.mongodb.net/test`;
-const DB_COLLECTION = ""; //Make this the name of your app usually
-const COMPAS_URL = `mongodb://127.0.0.1/${DB_COLLECTION}`;
+const APP_NAME = ""; 
+const COMPAS_URL = `mongodb://127.0.0.1/${APP_NAME}`;
 
 //mongo connection
 mongoose.Promise = global.Promise

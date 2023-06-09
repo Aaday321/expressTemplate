@@ -20,8 +20,6 @@ mongoose.connect(COMPAS_URL,
 //bodyparser setup
 app.use(bodyparser.urlencoded({extended: true}));
 app.use(bodyparser.json());
-//set up cookies parser
-app.use(cookieParser());
 //CORS setup
 app.use(cors());
 

@@ -2,7 +2,7 @@ import mongoose from "mongoose"
 
 
 
-export const toDoSchema = new mongoose.Schema({
+export const _exampleSchema_ = new mongoose.Schema({
 
     title:{
         type:String
